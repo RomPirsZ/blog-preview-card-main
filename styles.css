@@ -1,0 +1,116 @@
+*{
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+@font-face {
+    font-family: FigtreeRel; src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: FigtreeRel2; src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    height: 21.6rem;
+    width: 20rem;
+    border: .5px solid #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 100px;
+}
+.box2 {
+    background-color: hsl(0, 0%, 0%);
+    z-index: -1;
+    height: 28.5em;
+    width: 21.2em;
+    margin-top: -28.7em;
+    margin-left: 1.1em;
+    border-radius: 15px;
+}
+.blogIlustration {
+    align-content: center;
+    width: 300px;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+.contentBlog {
+    padding: 0 .7rem;
+    margin-top: -.5em;
+}
+.box1 .contentBlog .boxiYellow {
+    background-color: hsl(47, 88%, 63%);
+    height: 1.6rem;
+    width: 4.6rem;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.box1 .contentBlog .boxiYellow p {
+    font-size: 12.5px;
+    font-weight: 800;
+    text-align: center;
+    padding: 6px 0 0 0;
+}
+.box1 .contentBlog .publ {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.box1 .contentBlog h1 {
+    font-weight: 800;
+    font-size: 21px;
+}
+.box1 .contentBlog h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+.box1 .contentBlog .prraf1 {
+    color: gray;
+    justify-content: baseline;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box1 .person {
+    float: left;
+}
+.gregH {
+    font-size: 12.5px;
+    font-weight: 800;
+    padding-top: 1.2em;
+    margin-left: 3em;
+}
+.box1 .person .gregHooper {
+    width: 1.8em;
+    margin-top: 7px;
+}
+.attribution { font-size: 11px; text-align: center; margin-top: 2em }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .box1 {
+        margin-top: 5.5rem; 
+    }
+    .box2 {
+        margin-top: -28.7rem;
+    }
+}
+@media (min-width: 1440px) {
+    .box1 {
+        margin-top: 12rem; 
+    }
+    .box2 {
+        margin-top: -28.7rem;
+    }
+}
