@@ -27,9 +27,6 @@ These are some of the tools and processes that led me to complete this blog prev
 
 <<<<<<< HEAD
 ![1440 screen](./screenshots/MacBook-Pro-1722276162252.jpeg)
-=======
-![1440 screen](/screenshots/MacBook-Pro-1722276162252.jpeg)
->>>>>>> dd530f8760f87c6b80c503ea196a184a13494494
 ![375 screen](./screenshots/iPhone%206-7-8-1722276219175.jpeg)
 
 ### Links
