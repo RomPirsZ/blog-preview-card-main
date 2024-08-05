@@ -23,8 +23,8 @@ These are some of the tools and processes that led me to complete this blog prev
 
 ### Screenshot
 
-[1440 screen](/screenshots/MacBook-Pro-1722276162252.jpeg)
-[375 screen](./screenshots/iPhone%206-7-8-1722276219175.jpeg)
+![1440 screen](/screenshots/MacBook-Pro-1722276162252.jpeg)
+![375 screen](./screenshots/iPhone%206-7-8-1722276219175.jpeg)
 
 ### Links
 
