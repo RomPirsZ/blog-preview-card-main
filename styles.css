@@ -14,31 +14,30 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
+    min-height: 100vh;
 }
-.box1 {
+.card {
     background-color: hsl(0, 0%, 100%);
     padding: 10px;
-    height: 21.6rem;
+    height: 27.6rem;
     width: 20rem;
     border: .5px solid #000000;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     font-size: 10px;
-    margin-top: 50px;
-    margin-bottom: 10px;
-    padding-bottom: 100px;
 }
-.box2 {
+.card-Shadow {
     background-color: hsl(0, 0%, 0%);
     z-index: -1;
-    height: 28.5em;
+    height: 28.98em;
     width: 21.2em;
-    margin-top: -28.7em;
-    margin-left: 1.1em;
+    margin-top: -28.5em;
+    margin-left: 1em;
     border-radius: 15px;
 }
-.blogIlustration {
+.cardImage {
     align-content: center;
     width: 300px;
     border-radius: 10px;
@@ -46,70 +45,70 @@ body{
     margin-top: 11px;
     margin-bottom: 15px;
 }
-.contentBlog {
+.content-Card {
     padding: 0 .7rem;
     margin-top: -.5em;
 }
-.box1 .contentBlog .boxiYellow {
+.card .content-Card .card-colorYellow {
     background-color: hsl(47, 88%, 63%);
     height: 1.6rem;
     width: 4.6rem;
     border-radius: 4px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
-.box1 .contentBlog .boxiYellow p {
+.card .content-Card .card-colorYellow p {
     font-size: 12.5px;
     font-weight: 800;
     text-align: center;
     padding: 6px 0 0 0;
 }
-.box1 .contentBlog .publ {
+.card .content-Card .card-Date {
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 16px;
 }
-.box1 .contentBlog h1 {
+.card .content-Card h1 {
     font-weight: 800;
-    font-size: 21px;
+    font-size: 22px;
 }
-.box1 .contentBlog h1:hover{
+.card .content-Card h1:hover{
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
-.box1 .contentBlog .prraf1 {
+.card .content-Card .card-Description {
     color: gray;
     justify-content: baseline;
     font-size: 14px;
     line-height: 20px;
 }
-.box1 .person {
+.card .image-GregHooper {
     float: left;
 }
-.gregH {
+.autor-Course {
     font-size: 12.5px;
     font-weight: 800;
-    padding-top: 1.2em;
-    margin-left: 3em;
+    padding-top: 1.1em;
+    margin-left: 3.2em;
 }
-.box1 .person .gregHooper {
+.card .image-GregHooper {
     width: 1.8em;
-    margin-top: 7px;
+    margin-top: 6px;
 }
 .attribution { font-size: 11px; text-align: center; margin-top: 2em }
 .attribution a { color: hsl(228, 45%, 44%); }
 @media (min-width: 320px) and (max-width: 375px) {
-    .box1 {
+    /* .card {
         margin-top: 5.5rem; 
-    }
-    .box2 {
+    } */
+    .card-Shadow {
         margin-top: -28.7rem;
     }
 }
 @media (min-width: 1440px) {
-    .box1 {
+    /* .card {
         margin-top: 12rem; 
-    }
-    .box2 {
+    } */
+    .card-Shadow {
         margin-top: -28.7rem;
     }
 }

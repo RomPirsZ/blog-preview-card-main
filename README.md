@@ -25,27 +25,26 @@ These are some of the tools and processes that led me to complete this blog prev
 
 ### **Screenshots**
 
-<<<<<<< HEAD
 ![1440 screen](./screenshots/MacBook-Pro-1722276162252.jpeg)
 ![375 screen](./screenshots/iPhone%206-7-8-1722276219175.jpeg)
 
-### Links
+### **Links**
 
 - Solution URL: [Solution URL](https://github.com/RomPirsZ/blog-preview-card-main)
 - Live Site URL: [Live Site](https://rompirsz.github.io/blog-preview-card-main/)
 
-### Built with
+### **Built with**
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
 
-### Useful resources
+### **Useful resources**
 
 - [Responsively.app](https://responsively.app/) - This application has helped me with the screens that the project needs to be more responsive
 
-## Author
+## **Author**
 
 - Website - [My website](https://rompirsz.github.io//)
 - Frontend Mentor - [@RomPirsZ](https://www.frontendmentor.io/profile/RomPirsZ)

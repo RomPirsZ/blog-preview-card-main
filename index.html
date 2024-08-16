@@ -23,41 +23,46 @@
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <div class="box1">
+    <div class="card">
       <img
-        class="blogIlustration"
+        class="cardImage"
         src="assets/images/illustration-article.svg"
         alt="ilustration"
       />
-      <div class="contentBlog">
-        <div class="boxiYellow">
+      <main>
+        <div class="content-Card">
+          <div class="card-colorYellow">
           <p>Learning</p>
         </div>
 
-        <p class="publ">Published 21 Dec 2023</p>
+        <p class="card-Date">Published 21 Dec 2023</p>
 
         <h1>HTML & CSS foundations</h1>
+        
+        <article>
+          <p class="card-Description">
+            These languages are the backbone of every website, defining structure,
+            content, and presentation.
+          </p>
+        </article>
 
-        <p class="prraf1">
-          These languages are the backbone of every website, defining structure,
-          content, and presentation.
-        </p>
-        <div class="person">
-          <img
-            class="gregHooper"
-            src="../blog-preview-card-main/assets/images/image-avatar.webp"
-            alt="Greg Hooper"
-          />
+        <img
+          class="image-GregHooper"
+          src="../blog-preview-card-main/assets/images/image-avatar.webp"
+          alt="Greg Hooper"
+        />
+        <p class="autor-Course">Greg Hooper</p>
         </div>
-        <p class="gregH">Greg Hooper</p>
+      </main>
+    </div>
+    <div class="card-Shadow"></div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <link href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</link
+        >. Coded by <a href="https://github.com/RomPirsZ">Arlikam</a>.
       </div>
-    </div>
-    <div class="box2"></div>
-    <div class="attribution">
-      Challenge by
-      <link href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</link
-      >. Coded by <a href="#">Arlikam</a>.
-    </div>
+    </footer>
   </body>
 </html>
